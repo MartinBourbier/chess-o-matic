@@ -1,7 +1,12 @@
 #include <stdio.h>
 
+#include "../include/utils.h"
+
 int main(void)
 {
-    printf("Hello world\n");
+    int piece = Rook | Black;
+
+    print_piece(piece);
+
     return 0;
 }
